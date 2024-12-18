@@ -159,7 +159,7 @@ main {
 
 /* footer section */
 
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -167,12 +167,50 @@ footer{
     max-width: 1200px;
     margin: 0 auto;
 
-    ul{
+    ul {
         display: flex;
         gap: 2rem;
     }
 
-    ul li{
+    ul li {
         font-size: 1.8rem;
     }
+}
+
+
+/* post page */
+
+
+.post {
+    h1 {
+        font-size: 3rem;
+    }
+
+    section {
+        .banner_img img {
+            width: 100%;
+        }
+    }
+}
+
+.post hr {
+    margin: 3rem 0;
+}
+
+.about-author {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
 }
